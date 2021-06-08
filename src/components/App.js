@@ -1,9 +1,11 @@
 import React from 'react';
-
+import SongList from './SongList';
 
 const App = () => {
   return(
-    <h1>hello</h1>
+    <div>
+      <SongList />
+    </div>
   )
 }
 
